@@ -13,5 +13,3 @@ class Solution:
             arr[start],arr[end]=arr[end],arr[start]
             start+=1
             end-=1
-            
-             
