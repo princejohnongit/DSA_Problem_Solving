@@ -27,5 +27,3 @@ class Solution:
             return normal_sum
         
         return max(normal_sum,circular_sum)
-        
-    
