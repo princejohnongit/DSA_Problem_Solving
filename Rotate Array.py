@@ -1,7 +1,7 @@
 #User function Template for python3
 
 class Solution:
-    #Function to rotate an array by d elements in counter-clockwise direction. 
+    #Function to rotate an array by d elements in counter-clockwise direction. aka left
     def rotateArr(self, arr, d):
         n=len(arr)
         d%=n
