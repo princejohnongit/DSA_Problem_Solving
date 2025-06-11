@@ -1,6 +1,9 @@
 class Solution:
     # Function to find the majority elements in the array
-    '''Given an integer array of size n, find all elements that appear more than ⌊ n/3 ⌋ times.'''
+    '''
+    Given an integer array of size n, find all elements that appear more than ⌊ n/3 ⌋ times.
+    there will only be two elements in that case if there is sich elements
+    '''
     def findMajority(self, arr):
         #Your Code goes here.
         n=len(arr)
