@@ -1,0 +1,3 @@
+SELECT firstName, lastName, city, state
+FROM person left join address
+ON person.personId = address.personId
